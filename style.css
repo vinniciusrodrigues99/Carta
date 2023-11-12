@@ -1,0 +1,59 @@
+body{
+    background-color: #8C6472;
+    background-image: linear-gradient(90deg, #D6C4BA, #BFAF9B, #8C6472);
+    color: #1C1C26;
+    font-size: 1.3rem;
+    font-family: "Krona one", sans-serif;
+    font-weight: 200;
+}
+.carta{
+    display: flexbox;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5% 7%;
+}
+.header{
+    text-indent: 20px;  
+}
+.fotos{
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+img{
+    box-sizing: border-box;
+    border: 1px solid var(--cor--terciaria);
+    border-radius: 10px;
+    border-style: solid; 
+    max-width: 22%;
+}
+.parte__fotos{
+    margin: 0, 7%;
+    margin-top: 5%;
+}
+@media (max-width: 1024px) {
+    body {
+      font-size: 1rem;
+    }
+    .header {
+        text-indent: 15px;
+      }
+      .fotos {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+      }
+      img{
+        box-sizing: border-box;
+        border: 1px solid var(--cor--terciaria);
+        border-radius: 10px;
+        border-style: solid;
+        max-width: 33%;
+      }
+      .parte__fotos {
+        margin: 0, 7%;
+        margin-top: 5%;
+  }
+}
+  
